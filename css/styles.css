@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   width: 100%;
   height: 100%;
@@ -9,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+/* 
 .container {
   display: flex;
   position: relative;
@@ -17,17 +18,17 @@ body {
   height: 30vh;
   width: 30vw;
   text-align: center;
-}
+} */
 
-ol {
+ol{
   display: grid;
   grid-template-columns: repeat(5, 10vh);
-  gap: 4rem;
+  gap: 6rem;
   margin: 0;
   list-style: none;
 }
 
-li {
+li{
   display: flex;
   border: 2px solid;
   height: 8rem;
@@ -35,4 +36,8 @@ li {
   justify-content:center;
   align-items: center;
   margin: 0;
+}
+
+.hidden {
+  display: none;
 }
