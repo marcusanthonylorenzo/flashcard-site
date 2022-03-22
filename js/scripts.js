@@ -1,8 +1,10 @@
 $(document).ready(function () {
 
-  $('li').click(function () {
-      $(".showing li").toggle();
-      $(".hidden").toggle();
+
+      $('li').click(function () {
+        $(this).toggle();
+        $(this).show("hi2.hidden li");
+
   });
 
 });
